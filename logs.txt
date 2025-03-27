@@ -1,0 +1,17 @@
+User@DESKTOP-F5LRI64 MINGW64 ~/SI_2025_lab1_233209 (master)
+$ git log --oneline --graph --all --decorate
+*   c0e3835 (origin/master, origin/HEAD) Merge pull request #12 from Traj4Ei0/8-mark-a-task-as-completed-by-name
+|\
+| * 9e8deab (origin/8-mark-a-task-as-completed-by-name) Create merge branch 8
+* |   5275362 Merge pull request #11 from Traj4Ei0/6-find-the-highest-priority-unfinished-task
+|\ \
+| * | 3d04d78 (origin/6-find-the-highest-priority-unfinished-task) Create beanch 6 merge
+| |/
+* |   a5fed9b Merge pull request #10 from Traj4Ei0/4-sort-tasks-by-priority
+|\ \
+| |/
+|/|
+| * 2320bcd (origin/4-sort-tasks-by-priority) Create change for branch 4
+|/
+* 2aeb2ed (HEAD -> master, 8-mark-a-task-as-completed-by-name, 6-find-the-highest-priority-unfinished-task, 4-sort-tasks-by-priority) Add starter code
+* df61a40 Initial commit
