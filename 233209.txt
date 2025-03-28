@@ -1,1 +1,51 @@
+
+
 Трајче
+
+
+
+ДЕЛ 2.
+
+git fetch origin
+
+git checkout 4-sort-tasks-by-priority
+git add .
+git commit -m "change for branch 4"
+
+git checkout 6-find-the-highest-priority-unfinished-task
+git add .
+git commit -m "beanch 6 merge"
+
+git checkout 8-mark-a-task-as-completed-by-name
+git add .
+git commit -m "merge branch 8"
+
+git checkout master
+ 
+git push origin master
+
+git fetch origin
+
+git pull --rebase origin master
+
+git add .
+
+git rebase --continue
+
+git push origin master
+
+git log --oneline --graph --all --decorate
+
+
+ДЕЛ 3.
+ git clone https://github.com/stefanandonov/SI_2025_lab1_151020
+
+cd SI_2025_lab1_151020
+
+nano 233209.txt
+
+git add 233209.txt
+
+git commit -m "Add file"
+
+git push origin master
